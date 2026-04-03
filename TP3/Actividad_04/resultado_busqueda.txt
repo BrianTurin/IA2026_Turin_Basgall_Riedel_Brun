@@ -1,0 +1,38 @@
+﻿
+==============================================================
+  BUSQUEDA INFORMADA - Romania
+  Problema   : Arad -> Bucarest
+  Heuristica : SLD (linea recta a Bucarest)
+  Iteraciones para tiempo promedio: 5000
+==============================================================
+
+--------------------------------------------------------------
+  Algoritmo  : Busqueda Voraz (Greedy Best-First)
+--------------------------------------------------------------
+  Camino     : Arad -> Sibiu -> Fagaras -> Bucarest
+  Costo      : 450 km
+  Nodos exp. : 3
+  Tiempo     : 0.00531 ms
+
+--------------------------------------------------------------
+  Algoritmo  : A* (A-star)
+--------------------------------------------------------------
+  Camino     : Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucarest
+  Costo      : 418 km
+  Nodos exp. : 5
+  Tiempo     : 0.00827 ms
+
+--------------------------------------------------------------
+  Metrica                               Voraz           A*
+  ------------------------------------------------------
+  Costo del camino (km)                   450          418
+  Nodos expandidos                          3            5
+  Tiempo promedio (ms)                0.00531      0.00827
+  Camino optimo garantizado               No*           Si
+--------------------------------------------------------------
+
+  (*) La Busqueda Voraz no garantiza optimalidad.
+      A* es optima con heuristica admisible (SLD lo es).
+
+  >> A* tardo 0.00296 ms mas que Voraz en promedio.
+

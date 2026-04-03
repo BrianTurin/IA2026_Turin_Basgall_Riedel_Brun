@@ -1,0 +1,58 @@
+﻿
+============================================================
+python : Traceback (most 
+recent call last):
+En línea: 1 Carácter: 1
++ python busqueda_informada
+_rumania.py 2>&1 | 
+Out-File -Encoding utf8 r 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Tra  
+  ceback (most recent ca   
+ ll last)::String) [],     
+RemoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+  File "C:\Users\Chakichan\
+OneDrive\Escritorio\UNIVERS
+IDAD\IA\IA2026_Turin_Basgal
+l_Riedel_Brun\TP3\Actividad
+_04\busqueda_informada_ruma
+nia.py", line 259, in 
+<module>
+    comparar_algoritmos(INI
+CIO, DESTINO, 
+repeticiones=5000)
+    ~~~~~~~~~~~~~~~~~~~^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^
+  File "C:\Users\Chakichan\
+OneDrive\Escritorio\UNIVERS
+IDAD\IA\IA2026_Turin_Basgal
+l_Riedel_Brun\TP3\Actividad
+_04\busqueda_informada_ruma
+nia.py", line 220, in 
+comparar_algoritmos
+    print(f"  Problema  : 
+{inicio} \u2192 
+{objetivo}")
+    ~~~~~^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\en
+codings\cp1252.py", line 
+19, in encode
+    return codecs.charmap_e
+ncode(input,self.errors,enc
+oding_table)[0]
+           ~~~~~~~~~~~~~~~~
+~~~~~^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+UnicodeEncodeError: 
+'charmap' codec can't 
+encode character '\u2192' 
+in position 19: character 
+maps to <undefined>

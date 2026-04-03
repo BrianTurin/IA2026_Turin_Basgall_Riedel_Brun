@@ -1,8 +1,12 @@
-# 8-puzzle: Búsqueda no informada
+# Actividad 4 - Búsqueda Informada: Romania (Arad → Bucarest)
 
-Este script implementa un agente de búsqueda no informada (búsqueda en anchura) para resolver el 8-puzzle. Prueba con varios estados iniciales que requieren soluciones de hasta 10 pasos.
+Implementa y compara los algoritmos de **Búsqueda Voraz** y **A\*** para encontrar el camino óptimo desde Arad hasta Bucarest en el mapa de Rumania, usando la heurística de distancia en línea recta (SLD).
 
-- Archivo principal: busqueda_8puzzle.py
-- Para ejecutar: `python busqueda_8puzzle.py`
+- `solucion.py` — punto de entrada principal ✅
+- `busqueda_informada_rumania.py` — implementación completa de los algoritmos
 
-Estados de prueba incluidos en el código.
+## Ejecución
+
+```bash
+python solucion.py
+```
